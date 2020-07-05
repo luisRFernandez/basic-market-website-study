@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <link rel="stylesheet" href="./style.css" />
-        <title>//kuurome</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>//ShoppingCo.</title>
     </head>
+
     <body>
+        <!-- GRID CONTAINER -->
         <div class="grid-container">
-            
-            <header class="header">
 
-
+	    <!-- HEADER -->
+	    <header class="header">
                 <div class="brand">
+		    <!-- open the SIDE BAR MENU -->
                     <button onclick="openMenu()" class="brand-button">
                         &#9776
                     </button>
-                    <a href="index.html"><font color="red">//</font>kuurome</a>
+                    <a href="index.html"><font color="red">//</font>ShoppingCo.</a>
                 </div>
 
                 <div class="header-links">
@@ -23,6 +26,7 @@
                 </div>
             </header>
 
+	    <!-- SIDE BAR MENU -->
             <aside class="sidebar">
                 <h3>Shopping Categories</h3>
                 <button class="sidebar-close-button" onclick="closeMenu()">x</button>
@@ -39,6 +43,7 @@
                 </ul>
             </aside>
             
+	    <!-- MAIN products display -->
             <main class="main">
                 <div class="content">
                     <ul class="products">
@@ -145,12 +150,16 @@
                 </div>
             </main>
 
+	    <!-- FOOTER -->
             <footer class="footer">
-                powered by<font color="red"> //</font>kuurome
+                powered by <font color="red">//</font>ShoppingCo.
             </footer>
 
         </div>
+	<!-- GRID CONTAINER END -->
 
+	<script src="./jsscript/index.js"></script>
+	<!-- script now is comming from jsscript/index.js
         <script type="text/javascript">
         function openMenu(){
             document.querySelector(".sidebar").classList.add("open");
@@ -160,6 +169,7 @@
         }
 
         </script>
+	-->
 
     </body>
 </html>
